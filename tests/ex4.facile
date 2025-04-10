@@ -1,0 +1,12 @@
+read a;
+read b;
+
+if a > b then
+    print a;
+endif;
+
+if b > a then
+    print b;
+endif;
+
+print 999;

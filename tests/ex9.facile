@@ -1,0 +1,13 @@
+read i;
+
+while i > 0 do
+    read j;
+    while j > 0 do
+        print i;
+        print j;
+        j := j - 1;
+    endwhile;
+    i := i - 1;
+endwhile;
+
+print 999;

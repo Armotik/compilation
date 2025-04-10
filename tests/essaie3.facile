@@ -1,0 +1,33 @@
+read x;
+read y;
+read z;
+
+a := x + y * z;
+print a;
+
+if a > 50 then
+    print a;
+    if a < 100 then
+        print 1;
+    else
+        print 2;
+    endif;
+else
+    print 0;
+endif;
+
+b := 10;
+while b >= 0 do
+    print b;
+    b := b - 2;
+endwhile;
+
+c := 5;
+d := c * 3 + 7;
+print d;
+
+if d = 22 or d > 30 then
+    print d;
+else
+    print 1;
+endif;

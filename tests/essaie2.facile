@@ -1,0 +1,20 @@
+read x;
+read y;
+z := x + y;
+print z;
+
+if z > 10 then
+    print z;
+else
+    print 0;
+endif;
+
+a := 1;
+while a <= 5 do
+    print a;
+    a := a + 1;
+endwhile;
+
+b := 10;
+c := b * 2 - 5;
+print c;

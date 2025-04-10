@@ -1,0 +1,13 @@
+read note;
+
+if note >= 16 then
+    print 1;
+elseif note >= 14 then
+    print 2;
+elseif note >= 10 then
+    print 3;
+else
+    print 4;
+endif;
+
+print 999;

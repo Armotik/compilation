@@ -1,0 +1,14 @@
+read x;
+print x;
+
+while x > 0 do
+    if x = 5 then
+        x := x - 1;
+        continue;
+    endif;
+    if x = 2 then
+        break;
+    endif;
+    print x;
+    x := x - 1;
+endwhile;

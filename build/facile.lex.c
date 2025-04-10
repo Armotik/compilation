@@ -371,8 +371,8 @@ static void yynoreturn yy_fatal_error ( const char* msg  );
 	(yy_hold_char) = *yy_cp; \
 	*yy_cp = '\0'; \
 	(yy_c_buf_p) = yy_cp;
-#define YY_NUM_RULES 38
-#define YY_END_OF_BUFFER 39
+#define YY_NUM_RULES 36
+#define YY_END_OF_BUFFER 37
 /* This struct is not used in this scanner,
    but its presence is necessary. */
 struct yy_trans_info
@@ -380,18 +380,18 @@ struct yy_trans_info
 	flex_int32_t yy_verify;
 	flex_int32_t yy_nxt;
 	};
-static const flex_int16_t yy_accept[96] =
+static const flex_int16_t yy_accept[95] =
     {   0,
-        0,    0,   39,   37,   36,   36,   37,   32,   25,   26,
-       23,   21,   22,   24,   35,   35,   37,   19,   28,   29,
-       27,   34,   34,   34,   34,   34,   34,   34,   34,   34,
-       34,   34,   34,   34,   34,   33,   35,   20,   31,   30,
-       34,   34,   34,   34,   11,   34,   34,   34,    1,   34,
-       15,   34,   34,   34,   34,   34,   14,   34,   34,   34,
-        6,   34,   16,   34,   34,   34,   34,   34,   34,   34,
-        4,   34,   34,   34,   34,    9,    2,   17,   34,   13,
-       34,   34,    7,   34,   18,   10,    3,   34,    5,   34,
-       34,   34,   12,    8,    0
+        0,    0,   37,   35,   34,   34,   35,   24,   25,   22,
+       20,   21,   23,   33,   33,   35,   18,   27,   28,   26,
+       32,   32,   32,   32,   32,   32,   32,   32,   32,   32,
+       32,   32,   32,   32,   31,   33,   19,   30,   29,   32,
+       32,   32,   32,   10,   32,   32,   32,    1,   32,   14,
+       32,   32,   32,   32,   32,   13,   32,   32,   32,   32,
+       32,   15,   32,   32,   32,   32,   32,   32,   32,    4,
+       32,   32,   32,   32,    8,    2,   16,   32,   12,   32,
+       32,    6,   32,   17,    9,    3,   32,    5,   32,   32,
+       32,   11,    7,    0
 
     } ;
 
@@ -400,17 +400,17 @@ static const YY_CHAR yy_ec[256] =
         1,    1,    1,    1,    1,    1,    1,    1,    2,    3,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    2,    4,    1,    5,    1,    1,    1,    1,    6,
-        7,    8,    9,    1,   10,    1,   11,   12,   13,   13,
-       13,   13,   13,   13,   13,   13,   13,   14,   15,   16,
-       17,   18,    1,    1,   19,   19,   19,   19,   19,   19,
-       19,   19,   19,   19,   19,   19,   19,   19,   19,   19,
-       19,   19,   19,   19,   19,   19,   19,   19,   19,   19,
-        1,    1,    1,    1,   20,    1,   21,   22,   23,   24,
+        1,    2,    4,    1,    1,    1,    1,    1,    1,    5,
+        6,    7,    8,    1,    9,    1,   10,   11,   12,   12,
+       12,   12,   12,   12,   12,   12,   12,   13,   14,   15,
+       16,   17,    1,    1,   18,   18,   18,   18,   18,   18,
+       18,   18,   18,   18,   18,   18,   18,   18,   18,   18,
+       18,   18,   18,   18,   18,   18,   18,   18,   18,   18,
+        1,    1,    1,    1,   19,    1,   20,   21,   22,   23,
 
-       25,   26,   19,   27,   28,   19,   29,   30,   19,   31,
-       32,   33,   19,   34,   35,   36,   37,   19,   38,   19,
-       19,   19,    1,    1,    1,    1,    1,    1,    1,    1,
+       24,   25,   18,   26,   27,   18,   28,   29,   18,   30,
+       31,   32,   18,   33,   34,   35,   36,   18,   37,   18,
+       18,   18,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -427,87 +427,87 @@ static const YY_CHAR yy_ec[256] =
         1,    1,    1,    1,    1
     } ;
 
-static const YY_CHAR yy_meta[39] =
+static const YY_CHAR yy_meta[38] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    2,    2,    1,    1,    1,    1,    1,    2,    2,
+        2,    2,    1,    1,    1,    1,    1,    2,    2,    2,
         2,    2,    2,    2,    2,    2,    2,    2,    2,    2,
-        2,    2,    2,    2,    2,    2,    2,    2
+        2,    2,    2,    2,    2,    2,    2
     } ;
 
-static const flex_int16_t yy_base[97] =
+static const flex_int16_t yy_base[96] =
     {   0,
-        0,    0,  101,  102,  102,  102,   83,  102,  102,  102,
-      102,  102,  102,  102,  102,   27,   82,  102,   81,  102,
-       80,    0,   65,   61,   62,   61,   11,   71,   65,   58,
-       55,   54,   62,   16,   59,  102,   32,  102,  102,  102,
-        0,   61,   59,   52,    0,   47,   57,   50,    0,   43,
-        0,   50,   56,   51,   38,   46,    0,   52,   36,   46,
-       18,   35,    0,   38,   44,   36,   41,   35,   35,   35,
-       34,   35,   33,   34,   22,    0,    0,    0,   32,    0,
-       24,   28,    0,   25,    0,    0,    0,   15,    0,   21,
-       24,   23,    0,    0,  102,   45
+        0,    0,  100,  101,  101,  101,   83,  101,  101,  101,
+      101,  101,  101,  101,   27,   82,  101,   81,  101,   80,
+        0,   65,   61,   62,   61,   11,   71,   65,   58,   55,
+       54,   62,   16,   59,  101,   32,  101,  101,  101,    0,
+       61,   59,   52,    0,   47,   57,   50,    0,   43,    0,
+       50,   56,   51,   38,   46,    0,   52,   36,   46,   18,
+       35,    0,   38,   44,   36,   41,   35,   35,   35,   34,
+       35,   33,   34,   22,    0,    0,    0,   32,    0,   24,
+       28,    0,   25,    0,    0,    0,   15,    0,   21,   24,
+       23,    0,    0,  101,   44
 
     } ;
 
-static const flex_int16_t yy_def[97] =
+static const flex_int16_t yy_def[96] =
     {   0,
-       95,    1,   95,   95,   95,   95,   95,   95,   95,   95,
+       94,    1,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94,   94,   94,
        95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   96,   96,   96,   96,   96,   96,   96,   96,   96,
-       96,   96,   96,   96,   96,   95,   95,   95,   95,   95,
-       96,   96,   96,   96,   96,   96,   96,   96,   96,   96,
-       96,   96,   96,   96,   96,   96,   96,   96,   96,   96,
-       96,   96,   96,   96,   96,   96,   96,   96,   96,   96,
-       96,   96,   96,   96,   96,   96,   96,   96,   96,   96,
-       96,   96,   96,   96,   96,   96,   96,   96,   96,   96,
-       96,   96,   96,   96,    0,   95
+       95,   95,   95,   95,   94,   94,   94,   94,   94,   95,
+       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
+       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
+       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
+       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
+       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
+       95,   95,   95,    0,   94
 
     } ;
 
-static const flex_int16_t yy_nxt[141] =
+static const flex_int16_t yy_nxt[139] =
     {   0,
         4,    5,    6,    7,    8,    9,   10,   11,   12,   13,
-       14,   15,   16,   17,   18,   19,   20,   21,   22,    4,
-       23,   24,   25,   26,   27,   28,   22,   29,   22,   22,
-       30,   31,   32,   33,   22,   34,   22,   35,   37,   37,
-       46,   47,   54,   37,   37,   72,   41,   94,   93,   55,
-       92,   91,   90,   89,   88,   73,   87,   86,   85,   84,
-       83,   82,   81,   80,   79,   78,   77,   76,   75,   74,
-       71,   70,   69,   68,   67,   66,   65,   64,   63,   62,
-       61,   60,   59,   58,   57,   56,   53,   52,   51,   50,
-       49,   48,   45,   44,   43,   42,   40,   39,   38,   36,
+       14,   15,   16,   17,   18,   19,   20,   21,    4,   22,
+       23,   24,   25,   26,   27,   21,   28,   21,   21,   29,
+       30,   31,   32,   21,   33,   21,   34,   36,   36,   45,
+       46,   53,   36,   36,   71,   40,   93,   92,   54,   91,
+       90,   89,   88,   87,   72,   86,   85,   84,   83,   82,
+       81,   80,   79,   78,   77,   76,   75,   74,   73,   70,
+       69,   68,   67,   66,   65,   64,   63,   62,   61,   60,
+       59,   58,   57,   56,   55,   52,   51,   50,   49,   48,
+       47,   44,   43,   42,   41,   39,   38,   37,   35,   94,
 
-       95,    3,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   95,   95,   95,   95,   95,   95,   95,   95,   95
+        3,   94,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94
     } ;
 
-static const flex_int16_t yy_chk[141] =
+static const flex_int16_t yy_chk[139] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,   16,   16,
-       27,   27,   34,   37,   37,   61,   96,   92,   91,   34,
-       90,   88,   84,   82,   81,   61,   79,   75,   74,   73,
-       72,   71,   70,   69,   68,   67,   66,   65,   64,   62,
-       60,   59,   58,   56,   55,   54,   53,   52,   50,   48,
-       47,   46,   44,   43,   42,   35,   33,   32,   31,   30,
-       29,   28,   26,   25,   24,   23,   21,   19,   17,    7,
+        1,    1,    1,    1,    1,    1,    1,   15,   15,   26,
+       26,   33,   36,   36,   60,   95,   91,   90,   33,   89,
+       87,   83,   81,   80,   60,   78,   74,   73,   72,   71,
+       70,   69,   68,   67,   66,   65,   64,   63,   61,   59,
+       58,   57,   55,   54,   53,   52,   51,   49,   47,   46,
+       45,   43,   42,   41,   34,   32,   31,   30,   29,   28,
+       27,   25,   24,   23,   22,   20,   18,   16,    7,    3,
 
-        3,   95,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   95,   95,   95,   95,   95,   95,   95,   95,   95,
-       95,   95,   95,   95,   95,   95,   95,   95,   95,   95
+       94,   94,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94,   94,   94,
+       94,   94,   94,   94,   94,   94,   94,   94
     } ;
 
 /* Table of booleans, true if rule could match eol. */
-static const flex_int32_t yy_rule_can_match_eol[39] =
+static const flex_int32_t yy_rule_can_match_eol[37] =
     {   0,
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,     };
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,     };
 
 static yy_state_type yy_last_accepting_state;
 static char *yy_last_accepting_cpos;
@@ -777,13 +777,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 96 )
+				if ( yy_current_state >= 95 )
 					yy_c = yy_meta[yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 102 );
+		while ( yy_base[yy_current_state] != 101 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -861,265 +861,249 @@ case 6:
 YY_RULE_SETUP
 #line 37 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'end' found\n"));
-    return TOK_END;
+    assert(printf("'endif' found\n"));
+    return TOK_ENDIF;
 }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
 #line 42 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'endif' found\n"));
-    return TOK_ENDIF;
+    assert(printf("'endwhile' found\n"));
+    return TOK_ENDWHILE;
 }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
 #line 47 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'endwhile' found\n"));
-    return TOK_ENDWHILE;
+    assert(printf("'read' found\n"));
+    return TOK_READ;
 }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
 #line 52 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'read' found\n"));
-    return TOK_READ;
+    assert(printf("'print' found\n"));
+    return TOK_PRINT;
 }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
 #line 57 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'print' found\n"));
-    return TOK_PRINT;
+    assert(printf("'do' found\n"));
+    return TOK_DO;
 }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
 #line 62 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'do' found\n"));
-    return TOK_DO;
+    assert(printf("'continue' found\n"));
+    return TOK_CONTINUE;
 }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
 #line 67 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'continue' found\n"));
-    return TOK_CONTINUE;
+    assert(printf("'break' found\n"));
+    return TOK_BREAK;
 }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
 #line 72 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'break' found\n"));
-    return TOK_BREAK;
+    assert(printf("'and' found\n"));
+    return TOK_AND;
 }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
 #line 77 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'and' found\n"));
-    return TOK_AND;
+    assert(printf("'or' found\n"));
+    return TOK_OR;
 }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
 #line 82 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'or' found\n"));
-    return TOK_OR;
+    assert(printf("'not' found\n"));
+    return TOK_NOT;
 }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
 #line 87 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'not' found\n"));
-    return TOK_NOT;
+    assert(printf("'true' found\n"));
+    return TOK_TRUE;
 }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
 #line 92 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'true' found\n"));
-    return TOK_TRUE;
+    assert(printf("'false' found\n"));
+    return TOK_FALSE;
 }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
 #line 97 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'false' found\n"));
-    return TOK_FALSE;
+    assert(printf("';' found\n"));
+    return TOK_SEMI_COLON;
 }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
 #line 102 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("';' found\n"));
-    return TOK_SEMI_COLON;
+    assert(printf("':=' found\n"));
+    return TOK_AFFECTATION;
 }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
 #line 107 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("':=' found\n"));
-    return TOK_AFFECTATION;
+    assert(printf("'+' found\n"));
+    return TOK_ADD;
 }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
 #line 112 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'+' found\n"));
-    return TOK_ADD;
+    assert(printf("'-' found\n"));
+    return TOK_SUB;
 }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
 #line 117 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'-' found\n"));
-    return TOK_SUB;
+    assert(printf("'*' found\n"));
+    return TOK_MUL;
 }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
 #line 122 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'*' found\n"));
-    return TOK_MUL;
+    assert(printf("'/' found\n"));
+    return TOK_DIV;
 }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
 #line 127 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'/' found\n"));
-    return TOK_DIV;
+    assert(printf("'(' found\n"));
+    return TOK_OPEN_PARENTHESIS;
 }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
 #line 132 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'(' found\n"));
-    return TOK_OPEN_PARENTHESIS;
+    assert(printf("')' found\n"));
+    return TOK_CLOSE_PARENTHESIS;
 }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
 #line 137 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("')' found\n"));
-    return TOK_CLOSE_PARENTHESIS;
+    assert(printf("'>' found\n"));
+    return TOK_GT;
 }
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
 #line 142 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'>' found\n"));
-    return TOK_GT;
+    assert(printf("'<' found\n"));
+    return TOK_LT;
 }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
 #line 147 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'<' found\n"));
-    return TOK_LT;
+    assert(printf("'=' found\n"));
+    return TOK_EQ;
 }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
 #line 152 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'=' found\n"));
-    return TOK_EQ;
+    assert(printf("'>=' found\n"));
+    return TOK_GE;
 }
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
 #line 157 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'>=' found\n"));
-    return TOK_GE;
+    assert(printf("'<=' found\n"));
+    return TOK_LE;
 }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
 #line 162 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'<=' found\n"));
-    return TOK_LE;
+    assert(printf("'#' found\n"));
+    return TOK_NEQ;
 }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
 #line 167 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'#' found\n"));
-    return TOK_COMMENT;
+    assert(printf("identifier '%s(%d)\n' found", yytext, yyleng));
+    yylval.string = strdup(yytext);
+    return TOK_IDENTIFIER;
 }
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 172 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
+#line 173 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("'!=' found\n"));
-    return TOK_NEQ;
+    assert(printf("number '%s(%d)\n' found", yytext, yyleng));
+    sscanf(yytext, "%lu", &yylval.number);
+    return TOK_NUMBER;
 }
 	YY_BREAK
 case 34:
+/* rule 34 can match eol */
 YY_RULE_SETUP
-#line 177 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
+#line 179 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("identifier '%s(%d)' found", yytext, yyleng));
-    yylval.string = yytext;
-    return TOK_IDENTIFIER;
+    /* ignore white spaces */
 }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
 #line 183 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 {
-    assert(printf("number '%s(%d)' found", yytext, yyleng));
-    sscanf(yytext, "%lu", &yylval.number);
-    return TOK_NUMBER;
-}
-	YY_BREAK
-case 36:
-/* rule 36 can match eol */
-YY_RULE_SETUP
-#line 189 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
-{
-    /* ignore white spaces */
-}
-	YY_BREAK
-case 37:
-YY_RULE_SETUP
-#line 193 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
-{
     return yytext[0];
 }
 	YY_BREAK
-case 38:
+case 36:
 YY_RULE_SETUP
-#line 197 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
+#line 187 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 ECHO;
 	YY_BREAK
-#line 1123 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/build/facile.lex.c"
+#line 1107 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/build/facile.lex.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1416,7 +1400,7 @@ static int yy_get_next_buffer (void)
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 96 )
+			if ( yy_current_state >= 95 )
 				yy_c = yy_meta[yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
@@ -1444,11 +1428,11 @@ static int yy_get_next_buffer (void)
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 96 )
+		if ( yy_current_state >= 95 )
 			yy_c = yy_meta[yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
-	yy_is_jam = (yy_current_state == 95);
+	yy_is_jam = (yy_current_state == 94);
 
 		return yy_is_jam ? 0 : yy_current_state;
 }
@@ -2136,10 +2120,10 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 197 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
+#line 187 "/home/armotik/Documents/Université/L3/S6/Compilation/Projet/facile.lex"
 
 /*
 * file: facile.lex
-* version: 0.3.0 (exos 1-2-3 OK)
+* version: 0.5.0 (exos 1-2-3 + prépa 4+ OK)
 */
 

@@ -34,11 +34,6 @@ elseif {
     return TOK_ELSEIF;
 }
 
-end {
-    assert(printf("'end' found\n"));
-    return TOK_END;
-}
-
 endif {
     assert(printf("'endif' found\n"));
     return TOK_ENDIF;
@@ -164,24 +159,19 @@ false {
     return TOK_LE;
 }
 
-"#" {
-    assert(printf("'#' found\n"));
-    return TOK_COMMENT;
-}
-
 "!=" {
-    assert(printf("'!=' found\n"));
+    assert(printf("'#' found\n"));
     return TOK_NEQ;
 }
 
 [a-zA-Z][a-zA-Z0-9_]* {
-    assert(printf("identifier '%s(%d)' found", yytext, yyleng));
-    yylval.string = yytext;
+    assert(printf("identifier '%s(%d)\n' found", yytext, yyleng));
+    yylval.string = strdup(yytext);
     return TOK_IDENTIFIER;
 }
 
 0|[1-9][0-9]* {
-    assert(printf("number '%s(%d)' found", yytext, yyleng));
+    assert(printf("number '%s(%d)\n' found", yytext, yyleng));
     sscanf(yytext, "%lu", &yylval.number);
     return TOK_NUMBER;
 }
@@ -197,5 +187,5 @@ false {
 %%
 /*
 * file: facile.lex
-* version: 0.3.0 (exos 1-2-3 OK)
+* version: 0.6.0 (FINI)
 */

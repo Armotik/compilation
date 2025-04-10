@@ -1,0 +1,22 @@
+read note;
+
+if note >= 10 then
+    print 1;
+    if note >= 15 then
+        print 2;
+    endif;
+else
+    print 0;
+endif;
+
+if note < 10 then
+    print 100;
+else
+    if note < 13 then
+        print 200;
+    else
+        print 300;
+    endif;
+endif;
+
+print 999;
